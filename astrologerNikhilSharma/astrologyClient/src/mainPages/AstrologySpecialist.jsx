@@ -15,23 +15,24 @@ const AstrologySpecialist = () => {
       <div className=" p-2 hidden custom-md:inline-flex">
         {/* Sidebar (aside) */}
         <div className="min-w-[25vw]">
-          <aside className=" border-black border-2 p-0.5 h-[150vh] overflow-scroll mt-10">
-            <div className="bg-red-700 text-white p-1 font-bold border-black border-2">
-              <span>Astrology Services</span>
-            </div>
-            <div>
-              <ul>
-                {astrologyLinks.map((items) => (
-                  <li
-                    className="border-b-2 border-black border-dotted mx-2 m-1 p-1 flex items-center"
-                    key={items.title}>
-                    <MdOutlineArrowRight />
-                    <Link to={"/"}>{items.title}</Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </aside>
+    <aside className="border-black border-2 p-0.5 h-[150vh] overflow-scroll mt-10 animate-slideIn">
+      <div className="bg-red-700 text-white p-1 font-bold border-black border-2">
+        <span>Astrology Services</span>
+      </div>
+      <div>
+        <ul>
+          {astrologyLinks.map((items) => (
+            <li
+              className="border-b-2 border-black border-dotted mx-2 m-1 p-1 flex items-center"
+              key={items.title}
+            >
+              <MdOutlineArrowRight />
+              <Link to={"/"}>{items.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </aside>
 
           <aside className=" border-black border-2 p-0.5 mt-10">
             <div className="bg-red-700 text-white p-1 font-bold border-black border-2">

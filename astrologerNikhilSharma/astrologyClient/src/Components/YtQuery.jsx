@@ -52,7 +52,7 @@ const handleSubmit = async (e) => {
 
 
   return (
-    <div className="mt-12">
+    <div className="mt-12 animate-slideInRight">
       <div className="relative pb-[56.25%] h-0 overflow-hidden">
         <video width="600" controls>
           <source src="/videos/awardCeremony.mp4" type="video/mp4" />

@@ -54,7 +54,7 @@ const Home = () => {
             About Sharma Ji
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-slate-300 shadow-md p-4 rounded-lg">
+            <div className="bg-slate-300 shadow-md p-4 rounded-lg tryAnimate ">
               <h3 className="text-xl font-semibold mb-2">Address</h3>
               <p className="text-gray-600">
                 <strong>Dubai:</strong> Al Furjan East
@@ -67,7 +67,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="bg-green-300 shadow-md p-4 rounded-lg">
+            <div className="bg-green-300 shadow-md p-4 rounded-lg tryAnimate ">
               <h3 className="text-xl font-semibold mb-2">Education</h3>
               <p className="text-gray-600">
                 Shree Santan Dhram Sanskrit College, Ujjain
@@ -78,7 +78,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="bg-slate-300 shadow-md p-4 rounded-lg">
+            <div className="bg-slate-300 shadow-md p-4 rounded-lg tryAnimate ">
               <h3 className="text-xl font-semibold mb-2">Awards</h3>
               <p className="text-gray-600">
                 <strong>2021:</strong> Bollywood Actress Nora Fatehi
@@ -91,7 +91,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="bg-green-300 shadow-md p-4 rounded-lg">
+            <div className="bg-green-300 shadow-md p-4 rounded-lg tryAnimate ">
               <h3 className="text-xl font-semibold mb-2">Experience</h3>
               <p className="text-gray-600">
                 Practicing astrology since childhood, following the family
@@ -100,7 +100,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="bg-slate-300 shadow-md p-4 rounded-lg">
+            <div className="bg-slate-300 shadow-md p-4 rounded-lg tryAnimate ">
               <h3 className="text-xl font-semibold mb-2">Global Presence</h3>
               <p className="text-gray-600">
                 Branches in Malaysia, Mauritius, Singapore, Europe, and Dubai.
@@ -108,7 +108,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className=" bg-green-300 shadow-md p-4 rounded-lg">
+            <div className=" bg-green-300 shadow-md p-4 rounded-lg tryAnimate ">
               <h3 className="text-xl font-semibold mb-2">Clientele</h3>
               <p className="text-gray-600">
                 Consults with famous personalities, including Bollywood actors,
@@ -126,7 +126,7 @@ const Home = () => {
             />
             <img src={awardCeremony} alt="" srcSet="" />
           </div>
-          <div className="w-full lg:w-1/3">
+          <div className="w-full lg:w-1/3 tryAnimatesider ">
             <Sidebar heading="POSITIVE VASHIKARAN" links={sidebarLinks} />
           </div>
         </div>

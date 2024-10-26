@@ -15,7 +15,7 @@ const SimilarPageWithSidebar = ({ Content }) => {
       <div className=" p-2 hidden custom-md:inline-flex">
         {/* Sidebar (aside) */}
         <div className="min-w-[25vw]">
-          <aside className=" border-black border-2 p-0.5 max-h-[150vh]  overflow-scroll mt-10">
+          <aside className=" border-black border-2 p-0.5 max-h-[150vh]  overflow-scroll mt-10 animate-slideIn ">
             <div className="bg-red-700 text-white p-1 font-bold border-black border-2">
               <span>{Content[0].asideHeading1}</span>
             </div>

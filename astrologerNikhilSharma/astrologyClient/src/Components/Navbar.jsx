@@ -74,7 +74,7 @@ const Navbar = () => {
         <nav className="bg-red-600 py-3">
           <ul className="flex justify-center space-x-4 text-sm">
             {navItems.map((items) => (
-              <li key={items.id} className="group z-10 relative">
+              <li key={items.id} className="group z-10 ">
                 <Link
                   to={items.path}
                   className="hover:bg-gray-400 p-1 transition-all delay-50 rounded-md">
@@ -82,7 +82,7 @@ const Navbar = () => {
                 </Link>
                 {items.subTopics && (
                   <ul className="pt-2 absolute hidden group-hover:block animate-fadeIn">
-                    <ul className="bg-[#683a17] p-2 rounded-md shadow-lg">
+                    <ul className="bg-[#683a17]  p-2 rounded-md shadow-lg">
                       {items.subTopics.map((subItems, index) => (
                         <li key={index}>
                           <Link

@@ -1,63 +1,63 @@
-import React from 'react';
+import React from "react";
 
 const Specialization = () => {
   const services = [
-    'LOVE PSYCHIC READING',
-    'NADI ASTROLOGER',
-    'SPIRITUAL HEALER HEALING',
-    'VISA PROBLEMS',
-    'REIKI MIND POWER',
-    'BUSINESS ASTROLOGER',
-    'EX BACK FAST',
-    'CHILDLESS PROBLEM',
-    'LOVE BACK MANTRA',
-    'CAREER/JOB ISSUE',
-    'BEST ASTROLOGER',
-    'NUMEROLOGY SPECIALIST',
-    'BEST WAYS TO PREVENT DIVORCE',
-    'BABY NAMES BY NAKSHATRA',
-    'INTERCASTE LOVE PROBLEM SOLUTION',
-    'PROBLEMS IN MARRIED LIFE',
+    "LOVE PSYCHIC READING",
+    "NADI ASTROLOGER",
+    "SPIRITUAL HEALER HEALING",
+    "VISA PROBLEMS",
+    "REIKI MIND POWER",
+    "BUSINESS ASTROLOGER",
+    "EX BACK FAST",
+    "CHILDLESS PROBLEM",
+    "LOVE BACK MANTRA",
+    "CAREER/JOB ISSUE",
+    "BEST ASTROLOGER",
+    "NUMEROLOGY SPECIALIST",
+    "BEST WAYS TO PREVENT DIVORCE",
+    "BABY NAMES BY NAKSHATRA",
+    "INTERCASTE LOVE PROBLEM SOLUTION",
+    "PROBLEMS IN MARRIED LIFE",
     // Add other services as needed
   ];
 
   const services2 = [
-    'FAMILY PROBLEMS',
-    'NATAL ASTROLOGY',
-    'MATCH MAKING',
-    'STAR SIGNS',
-    'NUMEROLOGY READING',
-    'HEALTH PROBLEMS',
-    'ONLINE VASHIKARAN SPECIALIST',
-    'HOME PEACE',
-    'HYPNOTISM SPECIALIST',
-    'SERVICES TO NRI',
-    'ASTROLOGER COACH',
-    'VASTU SPECIALIST',
-    'REVIEWS Nikhil SHARMA',
-    'LOVE SPELLS',
-    'ONE SIDED LOVE PROBLEM SOLUTION',
-    'LOVE RELATIONSHIPS PROBLEM SOLUTION',
+    "FAMILY PROBLEMS",
+    "NATAL ASTROLOGY",
+    "MATCH MAKING",
+    "STAR SIGNS",
+    "NUMEROLOGY READING",
+    "HEALTH PROBLEMS",
+    "ONLINE VASHIKARAN SPECIALIST",
+    "HOME PEACE",
+    "HYPNOTISM SPECIALIST",
+    "SERVICES TO NRI",
+    "ASTROLOGER COACH",
+    "VASTU SPECIALIST",
+    "REVIEWS Nikhil SHARMA",
+    "LOVE SPELLS",
+    "ONE SIDED LOVE PROBLEM SOLUTION",
+    "LOVE RELATIONSHIPS PROBLEM SOLUTION",
     // Add other services as needed
   ];
 
   const services3 = [
-    'OFFICE PROBLEMS',
-    'MANGAL DOSHA REMEDIES',
-    'COURT CASE PROBLEM',
-    'KAAL SARP YOG REMEDY',
-    'BUSINESS PROBLEM',
-    'KUNDLI MAKING/MATCHING',
-    'MEDITATION GURU',
-    'GEMSTONES',
-    'VASTU SERVICES',
-    'LUCKY LOTTERY NUMBER',
-    'LOST LOVE SPELLS',
-    'DIVORCE PROBLEM SOLUTION',
-    'HUSBAND WIFE DISPUTE',
-    'LOVE DISPUTE PROBLEM',
-    'LOVE TRIANGLE PROBLEMS',
-    'BOYFRIEND VASHIKARAN FOR MARRIAGE',
+    "OFFICE PROBLEMS",
+    "MANGAL DOSHA REMEDIES",
+    "COURT CASE PROBLEM",
+    "KAAL SARP YOG REMEDY",
+    "BUSINESS PROBLEM",
+    "KUNDLI MAKING/MATCHING",
+    "MEDITATION GURU",
+    "GEMSTONES",
+    "VASTU SERVICES",
+    "LUCKY LOTTERY NUMBER",
+    "LOST LOVE SPELLS",
+    "DIVORCE PROBLEM SOLUTION",
+    "HUSBAND WIFE DISPUTE",
+    "LOVE DISPUTE PROBLEM",
+    "LOVE TRIANGLE PROBLEMS",
+    "BOYFRIEND VASHIKARAN FOR MARRIAGE",
     // Add other services as needed
   ];
 
@@ -67,32 +67,31 @@ const Specialization = () => {
         PANDIT JI'S SPECIALIZATION
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-gray-800">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-gray-800">
         <ul className="space-y-2">
           {services.map((service, index) => (
             <li
               key={index}
-              className={`border-b ${
-                service === 'EX BACK FAST' ? 'text-red-600 font-bold' : ''
-              }`}
-            >
-              {service}
+              className={` m-2 gap-5 p-2   ${
+                service === "EX BACK FAST" ? "text-red-600 font-bold " : ""
+              }`}>
+              <span className="border-2 border-gray-300 rounded-2xl p-2 ">{service}</span>
             </li>
           ))}
         </ul>
 
-        <ul className="space-y-2">
+        <ul className="space-y-2 ">
           {services2.map((service, index) => (
-            <li key={index} className="border-b">
-              {service}
+            <li key={index} className="m-2 gap-5 p-2 ">
+              <span className="border-2 border-gray-300 rounded-2xl p-2 ">{service}</span>
             </li>
           ))}
         </ul>
 
         <ul className="space-y-2">
           {services3.map((service, index) => (
-            <li key={index} className="border-b">
-              {service}
+            <li key={index} className="m-2 gap-5 p-2 ">
+              <span className="border-2 border-gray-300 rounded-2xl p-2 ">{service}</span>
             </li>
           ))}
         </ul>
