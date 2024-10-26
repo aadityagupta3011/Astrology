@@ -60,7 +60,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <div className="bg-yellow-600  border-2  text-gray-500 p-1.5 rounded-3xl text-2xl font-bold shadow-lg text-center inline-block animate-slide">
+          <div className="bg-yellow-600  border-2  text-gray-300 p-1.5 rounded-3xl text-2xl font-bold shadow-lg text-center inline-block animate-slide">
             Astrology Available
           </div>
 
