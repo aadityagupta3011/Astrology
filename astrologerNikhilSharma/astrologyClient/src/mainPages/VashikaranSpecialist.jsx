@@ -30,7 +30,7 @@ const {slug} = useParams()
         <h1 className="font-bold text-2xl border-b-2 border-black">
           Vashikaran Specialist
         </h1>
-        <div className="hidden custom-md:flex">
+        <div className="hidden custom-md:flex  ">
           <div>
             <p className="mb-4 mt-5">
               By virtue of its nature and effect, vashikaran is suitable for
@@ -89,12 +89,12 @@ const {slug} = useParams()
               internationally.
             </p>
           </div>
-          <div>
+          <div className="animate-slideInRight">
             <YtQuery />
           </div>
         </div>
-        <div className="block custom-md:hidden">
-          <div>
+        <div className="block custom-md:hidden ">
+          <div className=" animate-slideInRight ">
             <YtQuery />
           </div>
 

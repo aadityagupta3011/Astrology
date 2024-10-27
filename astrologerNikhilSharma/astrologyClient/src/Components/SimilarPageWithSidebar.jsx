@@ -90,7 +90,7 @@ const SimilarPageWithSidebar = ({ Content }) => {
                   </div>
                 )}
               </div>
-              <div className="mt-12">
+              <div className="mt-12 animate-slideInRight ">
                 <YtQuery />
               </div>
             </div>
@@ -178,7 +178,10 @@ const SimilarPageWithSidebar = ({ Content }) => {
         </div>
       </div>
       <div className="block custom-md:hidden mb-5 p-2">
+        <div className="animate-slideInRight">
+
         <YtQuery />
+        </div>
         <div>
           {/* Main Heading */}
           <h1 className="text-2xl font-bold mt-8">{Content[0].heading}</h1>

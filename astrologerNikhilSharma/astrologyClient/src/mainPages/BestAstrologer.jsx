@@ -50,14 +50,14 @@ const BestAstrologer = () => {
               guidance and comfort worldwide.
             </p>
           </div>
-          <div>
+          <div className="animate-slideInRight" >
             <YtQuery />
           </div>
         </div>
 
         {/* Mobile View */}
         <div className="block custom-md:hidden">
-          <div>
+          <div className="animate-slideIn" >
             <YtQuery />
           </div>
           <div>

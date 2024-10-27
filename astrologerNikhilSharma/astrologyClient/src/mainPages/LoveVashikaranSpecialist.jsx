@@ -76,12 +76,12 @@ const {slug} = useParams()
               marriage challenges with great success.
             </p>
           </div>
-          <div>
+          <div className="animate-slideInRight" >
             <YtQuery />
           </div>
         </div>
         <div className="block custom-md:hidden">
-          <div>
+          <div className="animate-slideInRight" >
             <YtQuery />
           </div>
 

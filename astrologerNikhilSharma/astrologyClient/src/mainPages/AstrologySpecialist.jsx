@@ -207,15 +207,15 @@ const AstrologySpecialist = () => {
         </div>
       </div>
       <div className="block custom-md:hidden mb-5 p-2">
-        <div className="relative w-full">
+        <div className="relative w-full animate-slideInRight ">
           
         <video width="600" controls>
         <source src="/videos/awardCeremony.mp4" type="video/mp4" />          
         </video>
         </div>
 
-        <div className="border-2 border-red-500 p-4 mt-5 bg-gray-500">
-          <div className="border-2 border-red-600 mb-2 p-1">
+        <div className="border-2 border-red-500 p-4 mt-5 bg-gray-500 animate-slideInRight ">
+          <div className="border-2 border-red-600 mb-2 p-1  ">
             <h2 className="text-xl font-bold text-red-600">
               Get Your Problem Solution
             </h2>

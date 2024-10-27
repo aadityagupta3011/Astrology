@@ -6,8 +6,8 @@ const MainSection = () => {
   return (
     <div className="relative w-full min-h-screen flex flex-col lg:flex-row bg-orange-200">
       {/* Responsive Container for YouTube Thumbnail */}
-      <div className="flex-1 flex justify-center items-center bg-green-400 p-4 lg:p-8">
-        <div className="w-full lg:flex-1 h-[50vh] lg:h-auto">
+      <div className="flex-1 flex justify-center items-center bg-green-400 p-4 lg:p-8 ">
+        <div className="w-full lg:flex-1 h-[50vh] lg:h-auto animate-slideIn">
         <video width="600" controls>
         <source src="/videos/awardCeremony.mp4" type="video/mp4" />          
         </video>

@@ -47,11 +47,11 @@ const {slug} = useParams()
 
             </div>
             
-            <div className="ml-5">
+            <div className="ml-5 animate-slideInRight ">
               <YtQuery />
             </div>
           </div>
-          <div className="block custom-md:hidden text-justify">
+          <div className="block custom-md:hidden text-justify animate-slideInRight">
             <div>
               <YtQuery />
             </div>

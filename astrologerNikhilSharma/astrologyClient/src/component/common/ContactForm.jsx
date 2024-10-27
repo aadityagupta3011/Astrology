@@ -31,7 +31,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="relative w-full h-full bg-gray-800 text-white p-6 flex flex-col justify-center">
+    <div className="relative w-full h-full bg-gray-800 text-white p-6 flex flex-col justify-center animate-slideInRight">
       <h2 className="text-xl font-bold mb-4">GET IMMEDIATE SOLUTION NOW</h2>
       <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
         <div>
